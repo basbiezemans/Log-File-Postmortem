@@ -19,4 +19,24 @@ no way to make sense of what went wrong!
 It’s all quite confusing; clearly we need a program to sort through
 this mess.
 
-[1]: http://www.cis.upenn.edu/~cis194/spring13/hw/02-ADTs.pdf "Source"
+## What went wrong?
+
+You can run the following commands in [GHCi][2]:
+
+```bash
+$ Prelude> :load LogAnalysis.hs
+$ LogAnalysis> testWhatWentWrong parse whatWentWrong "sample.log"
+```
+
+Output:
+
+```
+[ "Way too many pickles"
+, "Bad pickle-flange interaction detected"
+, "Flange failed!"
+]
+```
+
+[1]: http://www.cis.upenn.edu/~cis194/spring13/hw/02-ADTs.pdf	"Source"
+[2]: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html	"User Guide"
+
