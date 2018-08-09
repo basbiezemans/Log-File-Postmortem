@@ -19,9 +19,20 @@ no way to make sense of what went wrong!
 It’s all quite confusing; clearly we need a program to sort through
 this mess.
 
+## Docker
+
+If you have Docker installed you can build an image and create a container that will run `LogAnalysis.hs` in [GHCi][2].
+
+```bash
+$ docker build -t log-analysis
+$ docker run -it log-analysis
+```
+
+Use `:quit` to leave GHCi.
+
 ## What went wrong?
 
-You can run the following commands in [GHCi][2]:
+You can run the following commands in [GHCi][2]. The Docker container runs the first command for you.
 
 ```bash
 $ Prelude> :load LogAnalysis.hs
