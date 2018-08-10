@@ -21,7 +21,7 @@ this mess.
 
 ## Docker
 
-If you have Docker installed you can build an image and create a container that will run `LogAnalysis.hs` in [GHCi][2].
+If you have Docker installed then you can create a container that will run `LogAnalysis.hs` in [GHCi][2].
 
 ```bash
 $ docker build -t log-analysis
