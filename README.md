@@ -28,8 +28,6 @@ $ docker build -t log-analysis
 $ docker run -it log-analysis
 ```
 
-Use `:quit` to leave GHCi.
-
 ## What went wrong?
 
 You can run the following commands in [GHCi][2]. The Docker container runs the first command for you.
@@ -47,6 +45,8 @@ Output:
 , "Flange failed!"
 ]
 ```
+
+Use `:quit` to leave GHCi.
 
 [1]: http://www.cis.upenn.edu/~cis194/spring13/hw/02-ADTs.pdf	"Source"
 [2]: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html	"User Guide"
